@@ -9,10 +9,12 @@ The following project aims to create a DApp that allows for secure voting on a l
 ___
 ## Tech Stack Used : 
 The Tech Stack used was basic JavaScript and HTML for rendering a simplified voting application, and Truffle and Solidity for executing Smart Contracts on a Ganache Blockchain using the Metamask browser extension. Truffle was used to fetch and unbox a boilerplate [truffle pet-shop] to use as the base for the project.
+Testing was done using /test/election.js file to ensure proper functioning of the contracts and migrations.
 ___
 ## Contracts Used
 ```
 * Election.sol present in '/contracts' to facilitate the secure election
+* Migrations.sol already present in '/contracts' to facilitate initial migration
 ```
 ___
 ## Installation and Usage
